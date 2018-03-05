@@ -1,0 +1,143 @@
+using namespace std;
+#include <iostream>
+
+
+int main()
+{
+    /*char A='A';
+    char B='B';
+    bool check;
+    check= (A==B) ? true:false;
+    cout<<check<<endl;
+    */
+    
+    //If Statements
+   /* int x=30;
+    if(x>10)//if statement stops here and does not check whether other statements are true 
+    cout<<"?"<<endl;
+    else if(x>20)
+    cout<<"!"<<endl;
+    else
+    cout<<"."<<endl;
+    */
+    
+    
+    //For loops
+   // int x=0;
+    
+   /* for(int i=0;i<=9;i++)
+    {
+        x=x+i;
+        cout<<x<<endl;
+    }*/
+    
+    
+ /* for(float i=0;i<=9;i=i+0.1)
+    {
+        x=x+i;
+        cout<<x<<endl;
+        
+    }*/
+    
+  /*  for(int i=0,j=10;i<5;int j=10;j>5;j--)
+    {
+        cout<<i<<endl;
+        cout<<j<<endl;
+    }*/
+   
+  /* int x=0;
+    for(int  i=0, j=10; i<5 , j>5; i++,j--,cout<<i+j<<endl,x+=i+j)
+    {
+    }
+    cout<<x<<endl;*/// can also be done like this 
+    
+   /* int i=0;
+    bool done=false;
+  
+  
+    while(!done)//value is true(1)
+    {
+        cout<<i<<endl;
+        i++;
+        if(i==10)
+        done=true;//this ensures that when next iteration is about the occur, compiler will not execute after as the statement is false
+    }
+    cout<<"All Finished"<<endl;*/
+    
+    /*int i=0;
+    bool done=true;
+    
+    do
+    {
+        cout<<i<<endl;//will only print zero as first request
+        i++;
+        if(i==10)
+        done=false;
+    }while(!done);//done is set to false here where it would not iterate anymore
+    cout<<"All finished"<<endl;
+   */
+   
+   
+   //Break Statements
+  
+   
+   /*for(int i=0; ;i++)//taking out the second condition of i<10 does also work
+   {
+       cout<<i<<" ";
+       if(i==5)
+       break;//breaks out of the loop as attains 5
+    cout<<i*2<<endl;
+   }
+   cout<<"All Finished"<<endl;
+  */
+  
+  //continue statements
+ /* for(int i=0; i<10;i++)
+   {
+       cout<<i<<" ";
+       if(i==5)
+       {cout<<endl;
+       continue;//breaks out of the loop but will continue to iterate
+       }
+    cout<<i*2<<endl;
+   }
+   cout<<"All Finished"<<endl;
+   */
+   
+  
+  //Nested Loops
+  
+  //Multiplication Table 0-10
+  
+/* for(int i=0;i<=10;i++)
+ {
+     cout<<"Products of "<<i<<endl;
+     for(int j=0;j<=10;j++)
+     {
+         cout<<i*j<<endl;
+     }
+         cout<<endl;
+ }
+}*/
+/*int x,y,z;
+
+for( x=0;x<3;x++)
+{
+    for( y=0;y<3;y++)
+    {
+         if(y==2)
+        break;
+        for( z=0;z<3;z++)
+        {
+            cout<<x<<" "<<y;
+            cout<<" "<<z<<endl;
+        }
+    }
+}
+}
+  */  
+
+
+
+
+
